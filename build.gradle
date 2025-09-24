@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.soon'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.yaml:snakeyaml:2.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+application {
+    mainClass = 'Main'
+}
+
+sourceSets.main.java.srcDirs = ['src']
