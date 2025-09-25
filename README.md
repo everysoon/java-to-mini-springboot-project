@@ -40,3 +40,6 @@ gradle 설정부터 기능 구현까지 직접 해보려합니다.
 - ymlParser를 구현할때 gradle init을 통해 gradle 설정 
 - gradle 설정하며 gitignore 설정
 - 패키지를 사용하지 않고 src/Main.java를 기본으로 설정
+
+### 4. 웹서버 (Tomcat 대체)
+#### 
